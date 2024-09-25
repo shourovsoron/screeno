@@ -599,10 +599,106 @@ header {
 }
 
 
+footer{
+  background: #F7F9FA;
+  padding-top:7.8rem ;
+}
+
+footer hr{
+  margin-top: 5rem;
+  border-top: 1px solid #C9C9C9;
+}
+.footer-left{
+  display: flex;
+  gap: 5.6rem;
+  flex-wrap: wrap;
+}
 
 
+.footer-brand p{
+  margin-top: 2rem;
+  max-width: 17.1rem;
 
+}
 
+.footer-brand ul{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+  
+}
+
+.footer-brand ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-contact-info{
+
+}
+
+.footer-contact-info ul{
+  max-width: 24rem;
+  
+}
+
+.footer-contact-info ul li{
+  margin-top: 2.2rem;
+  
+}
+
+.footer-contact-info ul li a{
+  display: inline-flex;
+  gap: 1rem;
+  align-items: start;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.footer-contact-info ul li a img{
+  margin-top: .3rem;
+  max-width: initial;
+}
+
+.footer-right{
+
+}
+
+.footer-right form{
+  margin-top: 2rem;
+}
+
+.footer-right form input, textarea{
+  width: 100%;
+  max-width: 51.6rem;
+  border: 1px solid #EFEFEF;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1.3rem;
+  -webkit-border-radius: 1.3rem;
+  -moz-border-radius: 1.3rem;
+  -ms-border-radius: 1.3rem;
+  -o-border-radius: 1.3rem;
+}
+
+.footer-right form input[type="submit"]{
+  padding: 1rem 2.4rem;
+  width: initial;
+  background: var(--clr-accent-400);
+  border-radius: 100vmax;
+  -webkit-border-radius: 100vmax;
+  -moz-border-radius: 100vmax;
+  -ms-border-radius: 100vmax;
+  -o-border-radius: 100vmax;
+}
+
+.footer-bottom p{
+  padding: 2rem 0rem;
+  text-align: center;
+}
 
 
 
