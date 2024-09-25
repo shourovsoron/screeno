@@ -673,6 +673,7 @@ footer hr{
 
 .footer-right form input, textarea{
   width: 100%;
+  outline: none;
   max-width: 51.6rem;
   border: 1px solid #EFEFEF;
   background: #fff;
